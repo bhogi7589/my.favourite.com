@@ -69,14 +69,14 @@ a:active {
 
 #menu button {
     height: 45px;
-    width: 300px;
+    width: 250px;
     color: black;
     border: none;
     border-radius: 0px;
     outline: none;
     cursor: pointer;
     background-color: white;
-    font-size: 23px;
+    font-size: 18px;
     opacity: 1.0;
 }
 
@@ -121,4 +121,15 @@ h1 {
     font-size: 35px;
     font-weight: bolder;
     color: skyblue;
+}
+
+#inspimg {
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px #7f7f7f;
+    transition: transform 0.2s;
+}
+
+#inspimg:hover {
+    transform: scale(0.9);
+    box-shadow: 5px 5px 3px #7f7f7f;
 }
